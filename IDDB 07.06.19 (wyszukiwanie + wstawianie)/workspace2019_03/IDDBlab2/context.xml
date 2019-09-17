@@ -1,0 +1,16 @@
+<GlobalNamingResources>
+  <Resource name="jdbc/myapp"
+    global="jdbc/myapp"
+    auth="Container"
+    type="javax.sql.DataSource"
+    driverClassName="oracle.jdbc.OracleDriver"
+    url="jdbc:oracle:thin:@localhost:1521:xe"
+    username="system"
+    password="Misia123"
+    maxActive="100"
+    maxIdle="20"
+    minIdle="5"
+    maxWait="10000"
+    factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+  />
+</GlobalNamingResources>
